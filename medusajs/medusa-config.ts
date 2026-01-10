@@ -3,6 +3,9 @@ import { loadEnv, defineConfig } from '@medusajs/framework/utils'
 loadEnv(process.env.NODE_ENV || 'development', process.cwd())
 
 module.exports = defineConfig({
+  admin: {
+    backendUrl: process.env.BACKEND_URL,
+   },
   projectConfig: {
     databaseUrl: process.env.DATABASE_URL,
     workerMode: process.env.MEDUSA_WORKER_MODE as "shared" | "worker" | "server",
