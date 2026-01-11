@@ -3228,7 +3228,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@medusajs/workflow-engine-redis@npm:2.12.5":
+"@medusajs/workflow-engine-redis@npm:2.12.5, @medusajs/workflow-engine-redis@npm:^2.12.5":
   version: 2.12.5
   resolution: "@medusajs/workflow-engine-redis@npm:2.12.5"
   dependencies:
@@ -13279,6 +13279,7 @@ __metadata:
     "@medusajs/framework": "npm:2.12.5"
     "@medusajs/medusa": "npm:2.12.5"
     "@medusajs/test-utils": "npm:2.12.5"
+    "@medusajs/workflow-engine-redis": "npm:^2.12.5"
     "@swc/core": "npm:^1.7.28"
     "@swc/jest": "npm:^0.2.36"
     "@types/jest": "npm:^29.5.13"
