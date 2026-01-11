@@ -91,6 +91,23 @@ module.exports = defineConfig({
                 }
               }
             }] : []),
+            
+        ...(STRIPE_API_KEY && STRIPE_WEBHOOK_SECRET ? [{
+              key: Modules.PAYMENT,
+              resolve: '@medusajs/payment',
+              options: {
+                providers: [
+                  {
+                    resolve: '@medusajs/payment-stripe',
+                    id: 'stripe',
+                    options: {
+                      apiKey: STRIPE_API_KEY,
+                      webhookSecret: STRIPE_WEBHOOK_SECRET,
+                    },
+                  },
+                ],
+              },
+            }] : [])
 
         {
           resolve: "./src/modules/product-review"
