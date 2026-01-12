@@ -1,9 +1,9 @@
 {
-  "name": "medusa-next",
-  "version": "1.0.3",
+  "name": "helloflora-frontend",
+  "version": "0.9.1",
   "private": true,
-  "author": "Kasper Fabricius Kristensen <kasper@medusajs.com> & Victor Gerbrands <victor@medusajs.com> (https://www.medusajs.com)",
-  "description": "Next.js Starter to be used with Medusa V2",
+  "author": "HelloFlora Labs",
+  "description": "Storefront for HelloFlora built with MedusaJS",
   "keywords": [
     "medusa-storefront"
   ],
