@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "displayName": "Seo",
+    "icon": "cast"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string",
+      "maxLength": 60,
+      "required": true
+    },
+    "metaDescription": {
+      "type": "text",
+      "maxLength": 155,
+      "required": true
+    },
+    "shareImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}
