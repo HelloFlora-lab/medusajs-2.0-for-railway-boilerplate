@@ -1,7 +1,7 @@
 import { model } from "@medusajs/framework/utils"
 
 
-import { FloristStatus } from "../types/common"
+import { FloristStatus } from "../types"
 
 export const Florist = model.define("florist", {
 
@@ -38,7 +38,7 @@ export const Florist = model.define("florist", {
     
     rate: model.number().nullable(),
     
-    florist_status: model.enum(["pending", "approved", "rejected"]).default("pending")
+    florist_status: model.enum(FloristStatus).default(FloristStatus.PENDING)
 
 })
 
