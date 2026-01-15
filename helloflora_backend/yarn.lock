@@ -2254,7 +2254,7 @@
   dependencies:
     "@sendgrid/mail" "^8.1.6"
 
-"@medusajs/notification@2.12.5":
+"@medusajs/notification@2.12.5", "@medusajs/notification@^2.12.5":
   version "2.12.5"
   resolved "https://registry.yarnpkg.com/@medusajs/notification/-/notification-2.12.5.tgz#ccab9507003581187e9d535545343ff97e766217"
   integrity sha512-GfvMMLBESVMsziiRhpg23fTONaIUp5KIjcw0618bq1i5stg9lEjzcwtDVifa5YabyELfWJUbAz9PTrnbR2CvqA==
