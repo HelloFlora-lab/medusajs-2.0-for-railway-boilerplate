@@ -116,6 +116,14 @@ module.exports = defineConfig({
                             admin_url: SLACK_ADMIN_URL
                             },
                       }] : []),
+                      
+                      {resolve: "@medusajs/medusa/notification-local",
+                        id: "local",
+                        options: {
+                          name: "Local Notification Provider",
+                          channels: ["feed"],
+                        },
+                      }
 
                      
                    ]
