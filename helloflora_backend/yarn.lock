@@ -2247,7 +2247,7 @@
   resolved "https://registry.yarnpkg.com/@medusajs/notification-local/-/notification-local-2.12.5.tgz#73da025f70fe5d2db87d2bd1afed90af9e4cc258"
   integrity sha512-w4YGqgqZMHBUd9+0HYDMiqzwOh8+Pe+Ca6nuZMLdo9fI6vs7K98BUTEWm9pLOj10ToBYWwAmK+9N+gaIMra/6A==
 
-"@medusajs/notification-sendgrid@2.12.5":
+"@medusajs/notification-sendgrid@2.12.5", "@medusajs/notification-sendgrid@^2.12.5":
   version "2.12.5"
   resolved "https://registry.yarnpkg.com/@medusajs/notification-sendgrid/-/notification-sendgrid-2.12.5.tgz#1fbc46e1339a0f16b5b0a53488d57249a035328f"
   integrity sha512-bJwe5Rb+c5nlD3/AMMNJ8Tfd9rrBJnqdKnCLOiW+PaDWJ4uUBDgQ1WqG+TVM8l5/DwEwLKPJE8FZM94Xh9X8gg==
