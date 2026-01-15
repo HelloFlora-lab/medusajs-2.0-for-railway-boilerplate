@@ -92,35 +92,6 @@ module.exports = defineConfig({
             }] : []),
 
 
-        ...(SENDGRID_API_KEY && SENDGRID_FROM || SLACK_WEBHOOK_URL && SLACK_ADMIN_URL ? [{
-                  key: Modules.NOTIFICATION,
-                  resolve: '@medusajs/notification',
-                  options: {
-                    providers: [
-                      ...(SENDGRID_API_KEY && SENDGRID_FROM ? [{
-                        resolve: '@medusajs/notification-sendgrid',
-                        id: 'sendgrid',
-                        options: {
-                          channels: ['email'],
-                          api_key: SENDGRID_API_KEY,
-                          from: SENDGRID_FROM,
-                        }
-                      }] : []),
-                      ,
-                      ...(SLACK_WEBHOOK_URL && SLACK_ADMIN_URL ? [{
-                          resolve: './src/modules/slack',
-                          id: 'slack',
-                          options: {
-                            channels: ["slack"],
-                            webhook_url: SLACK_WEBHOOK_URL,
-                            admin_url: SLACK_ADMIN_URL
-                            },
-                      }] : []),
-                               
-                    ]
-                  }
-                }] : []
-              ),
 
 
    ]
