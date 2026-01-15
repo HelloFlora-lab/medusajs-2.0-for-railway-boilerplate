@@ -2430,7 +2430,7 @@
     cron-parser "^4.9.0"
     ulid "^2.3.0"
 
-"@medusajs/workflow-engine-redis@2.12.5":
+"@medusajs/workflow-engine-redis@2.12.5", "@medusajs/workflow-engine-redis@^2.12.5":
   version "2.12.5"
   resolved "https://registry.yarnpkg.com/@medusajs/workflow-engine-redis/-/workflow-engine-redis-2.12.5.tgz#abce2363932f6a5303d3caa4a634ad0420cf6dd0"
   integrity sha512-IJOHqxgTc5XyV/Z0rYB3QgJDPvMW7Lz27q38EEcjeXKAAoWFUls0D5U7sqJDg2p/qTTo7hvuTJIxPNUPKtNlVw==

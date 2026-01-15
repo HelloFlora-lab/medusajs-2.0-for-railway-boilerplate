@@ -66,5 +66,30 @@ module.exports = defineConfig({
           }
         },
 
+        ...(REDIS_URL ? [
+          {
+            key: Modules.CACHE,
+              resolve: '@medusajs/medusa/cache-redis',
+              options: {
+                redisUrl: REDIS_URL
+              }
+          },
+          {
+              key: Modules.EVENT_BUS,
+              resolve: '@medusajs/event-bus-redis',
+              options: {
+                redisUrl: REDIS_URL
+              }
+            },
+            {
+              key: Modules.WORKFLOW_ENGINE,
+              resolve: '@medusajs/workflow-engine-redis',
+              options: {
+                redis: {
+                  url: REDIS_URL,
+                }
+              }
+            }] : []),
+
    ]
 })
