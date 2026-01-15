@@ -2115,7 +2115,7 @@
   resolved "https://registry.yarnpkg.com/@medusajs/fulfillment/-/fulfillment-2.12.5.tgz#2c959539e6b4194de5fcb87c7aa259e91e618e9d"
   integrity sha512-dn56eHL/tOzXRQnmWpxgfFLVxFNUNBccgE+K4rxpDVPPAvR/qkt4uS0Ltb2KJkWMhFstobLGzh1tdcVty8nJow==
 
-"@medusajs/icons@2.12.5":
+"@medusajs/icons@2.12.5", "@medusajs/icons@^2.12.5":
   version "2.12.5"
   resolved "https://registry.yarnpkg.com/@medusajs/icons/-/icons-2.12.5.tgz#4b132824e4672269ba996e963300927095f9472e"
   integrity sha512-aOhhT2xcIHVYBMGaNjHBCekP592xyM7N0BM9LVWohc9dk3Z5df6tHBn9D8dW7wqnvaDh0BIrAVanmaiOHJPqBg==

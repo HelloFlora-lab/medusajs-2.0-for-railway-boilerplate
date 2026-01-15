@@ -26,6 +26,7 @@
     "@medusajs/admin-sdk": "2.12.5",
     "@medusajs/cli": "2.12.5",
     "@medusajs/framework": "2.12.5",
+    "@medusajs/icons": "^2.12.5",
     "@medusajs/medusa": "2.12.5",
     "@medusajs/notification": "^2.12.5",
     "@medusajs/notification-sendgrid": "^2.12.5",
